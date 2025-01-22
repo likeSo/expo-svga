@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "ExpoSvgaModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.svga.ExpoSvgaModule"
+    ]
+  }
+}

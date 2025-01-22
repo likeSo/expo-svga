@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-svga": ["../src/index"],
+      "expo-svga/*": ["../src/*"]
+    }
+  }
+}
