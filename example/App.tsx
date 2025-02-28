@@ -1,5 +1,5 @@
 import { useEvent } from "expo";
-import ExpoSvga, { ExpoSvgaView, ExpoSvgaFillMode } from "expo-svga";
+import ExpoSvga, { ExpoSvgaView } from "expo-svga";
 import ExpoSvgaModule from "expo-svga/ExpoSvgaModule";
 import { useState } from "react";
 import { Button, SafeAreaView, ScrollView, Text, View } from "react-native";
@@ -57,7 +57,7 @@ export default function App() {
             style={styles.view}
             loops={false}
             clearsAfterStop
-            fillMode={ExpoSvgaFillMode.clear}
+            fillMode={'clear'}
           />
           <Button
             title="下一个"

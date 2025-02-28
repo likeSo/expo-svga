@@ -7,8 +7,8 @@ export default function ExpoSvgaView(props: ExpoSvgaViewProps) {
     <div>
       <iframe
         style={{ flex: 1 }}
-        src={props.url}
-        onLoad={() => props.onLoad({ nativeEvent: { url: props.url } })}
+        // src={props.url}
+        // onLoad={() => props.onLoad({ nativeEvent: { url: props.url } })}
       />
     </div>
   );
